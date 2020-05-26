@@ -43,9 +43,9 @@ class _WeeklyCardViewState extends State<WeeklyCardView> {
       height: MediaQuery.of(context).size.height * 0.21,
       width: MediaQuery.of(context).size.width * 0.30,
       decoration: BoxDecoration(
-        color: widget.bgClr,
-        borderRadius: BorderRadius.circular(23),
-      ),
+          color: widget.bgClr,
+          borderRadius: BorderRadius.circular(23),
+         ),
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(

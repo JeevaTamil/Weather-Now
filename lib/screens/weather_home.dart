@@ -94,7 +94,7 @@ class _WeatherHomeState extends State<WeatherHome> {
               height: 20,
             ),
             Text(
-              "Rain tarting in 13 min",
+              "Rain Starting in 13 min",
               style: TextStyle(fontSize: 23, color: Colors.white),
             ),
             SizedBox(
@@ -295,13 +295,13 @@ class _WeatherHomeState extends State<WeatherHome> {
               SizedBox(
                 width: 20,
               ),
-              WeeklyCardView('Friday', 'assets/images/drizzle.png', '50', '22',
+              WeeklyCardView('Friday', 'assets/images/wind.png', '50', '22',
                   '25', Color(0xffDC0000)),
               SizedBox(
                 width: 20,
               ),
-              WeeklyCardView('Saturday', 'assets/images/drizzle.png', '50',
-                  '22', '25', Color(0xff0051FF)),
+              WeeklyCardView('Saturday', 'assets/images/rain.png', '50', '22',
+                  '25', Color(0xff0051FF)),
               SizedBox(
                 width: 20,
               ),
